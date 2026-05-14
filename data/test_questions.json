@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "squad_q_18",
+    "question": "What city did Super Bowl 50 take place in?",
+    "answer": "Santa Clara",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_13",
+    "question": "What venue did Super Bowl 50 take place in?",
+    "answer": "Levi's Stadium",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_48",
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "answer": "Organizations could come together to address global issues",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_462",
+      "hotpot_doc_463",
+      "hotpot_doc_464",
+      "hotpot_doc_465",
+      "hotpot_doc_466"
+    ]
+  },
+  {
+    "id": "squad_q_23",
+    "question": "What team was the AFC champion?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_10",
+    "question": "Are Local H and For Against both from the United States?",
+    "answer": "yes",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_91",
+      "hotpot_doc_92",
+      "hotpot_doc_93",
+      "hotpot_doc_94",
+      "hotpot_doc_95"
+    ]
+  },
+  {
+    "id": "squad_q_35",
+    "question": "Who did the Broncos prevent from going to the Super Bowl?",
+    "answer": "New England Patriots",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_13",
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "answer": "1999",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_121",
+      "hotpot_doc_122",
+      "hotpot_doc_123",
+      "hotpot_doc_124",
+      "hotpot_doc_125"
+    ]
+  },
+  {
+    "id": "hotpot_q_7",
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "answer": "Eenasul Fateh",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_61",
+      "hotpot_doc_62",
+      "hotpot_doc_63",
+      "hotpot_doc_64",
+      "hotpot_doc_65"
+    ]
+  },
+  {
+    "id": "squad_q_34",
+    "question": "What team did the Panthers defeat?",
+    "answer": "Arizona Cardinals",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_39",
+    "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+    "answer": "no",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_372",
+      "hotpot_doc_373",
+      "hotpot_doc_374",
+      "hotpot_doc_375",
+      "hotpot_doc_376"
+    ]
+  },
+  {
+    "id": "squad_q_24",
+    "question": "What team was the NFC champion?",
+    "answer": "Carolina Panthers",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_4",
+    "question": "Which NFL team won Super Bowl 50?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_20",
+    "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+    "answer": "Robert Erskine Childers DSC",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_190",
+      "hotpot_doc_191",
+      "hotpot_doc_192",
+      "hotpot_doc_193",
+      "hotpot_doc_194"
+    ]
+  },
+  {
+    "id": "hotpot_q_18",
+    "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+    "answer": "yes",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_170",
+      "hotpot_doc_171",
+      "hotpot_doc_172",
+      "hotpot_doc_173",
+      "hotpot_doc_174"
+    ]
+  },
+  {
+    "id": "hotpot_q_41",
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "answer": "Scotch Collie",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_392",
+      "hotpot_doc_393",
+      "hotpot_doc_394",
+      "hotpot_doc_395",
+      "hotpot_doc_396"
+    ]
+  },
+  {
+    "id": "hotpot_q_46",
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "answer": "Yellowcraig",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_442",
+      "hotpot_doc_443",
+      "hotpot_doc_444",
+      "hotpot_doc_445",
+      "hotpot_doc_446"
+    ]
+  },
+  {
+    "id": "hotpot_q_40",
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "answer": "New York City",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_382",
+      "hotpot_doc_383",
+      "hotpot_doc_384",
+      "hotpot_doc_385",
+      "hotpot_doc_386"
+    ]
+  },
+  {
+    "id": "hotpot_q_5",
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "answer": "Greenwich Village, New York City",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_41",
+      "hotpot_doc_42",
+      "hotpot_doc_43",
+      "hotpot_doc_44",
+      "hotpot_doc_45"
+    ]
+  },
+  {
+    "id": "hotpot_q_38",
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "answer": "World War II",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_362",
+      "hotpot_doc_363",
+      "hotpot_doc_364",
+      "hotpot_doc_365",
+      "hotpot_doc_366"
+    ]
+  },
+  {
+    "id": "hotpot_q_42",
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered?",
+    "answer": "Mumbai",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_402",
+      "hotpot_doc_403",
+      "hotpot_doc_404",
+      "hotpot_doc_405",
+      "hotpot_doc_406"
+    ]
+  },
+  {
+    "id": "squad_q_2",
+    "question": "Which NFL team represented the NFC at Super Bowl 50?",
+    "answer": "Carolina Panthers",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_1",
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "answer": "yes",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_1",
+      "hotpot_doc_2",
+      "hotpot_doc_3",
+      "hotpot_doc_4",
+      "hotpot_doc_5"
+    ]
+  },
+  {
+    "id": "hotpot_q_50",
+    "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+    "answer": "English Electric Canberra",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_482",
+      "hotpot_doc_483",
+      "hotpot_doc_484",
+      "hotpot_doc_485",
+      "hotpot_doc_486"
+    ]
+  },
+  {
+    "id": "squad_q_7",
+    "question": "What day was the game played on?",
+    "answer": "February 7, 2016",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_29",
+    "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+    "answer": "Henry J. Kaiser",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_272",
+      "hotpot_doc_273",
+      "hotpot_doc_274",
+      "hotpot_doc_275",
+      "hotpot_doc_276"
+    ]
+  },
+  {
+    "id": "squad_q_10",
+    "question": "What does AFC stand for?",
+    "answer": "American Football Conference",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_32",
+    "question": "How many appearances have the Denver Broncos made in the Super Bowl?",
+    "answer": "8",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_8",
+    "question": "What is the AFC short for?",
+    "answer": "American Football Conference",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_12",
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and Téa Leoni?",
+    "answer": "David Weissman",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_111",
+      "hotpot_doc_112",
+      "hotpot_doc_113",
+      "hotpot_doc_114",
+      "hotpot_doc_115"
+    ]
+  },
+  {
+    "id": "squad_q_27",
+    "question": "Which team won Super Bowl 50.",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_3",
+    "question": "Where did Super Bowl 50 take place?",
+    "answer": "Santa Clara, California",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_22",
+    "question": "What year was Super Bowl 50?",
+    "answer": "2015",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_46",
+    "question": "Who is the quarterback for the Panthers?",
+    "answer": "Cam Newton",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_49",
+    "question": "Who did Denver beat in the AFC championship?",
+    "answer": "New England Patriots",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_35",
+    "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+    "answer": "Letters to Cleo",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_332",
+      "hotpot_doc_333",
+      "hotpot_doc_334",
+      "hotpot_doc_335",
+      "hotpot_doc_336"
+    ]
+  },
+  {
+    "id": "squad_q_11",
+    "question": "What day was the Super Bowl played on?",
+    "answer": "February 7, 2016",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_31",
+    "question": "Which Carolina Panthers player was named Most Valuable Player?",
+    "answer": "Cam Newton",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_36",
+    "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+    "answer": "October 1922",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_342",
+      "hotpot_doc_343",
+      "hotpot_doc_344",
+      "hotpot_doc_345",
+      "hotpot_doc_346"
+    ]
+  },
+  {
+    "id": "hotpot_q_9",
+    "question": "Who is older, Annie Morton or Terry Richardson?",
+    "answer": "Terry Richardson",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_81",
+      "hotpot_doc_82",
+      "hotpot_doc_83",
+      "hotpot_doc_84",
+      "hotpot_doc_85"
+    ]
+  },
+  {
+    "id": "hotpot_q_25",
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "answer": "World's Best Goalkeeper",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_240",
+      "hotpot_doc_241",
+      "hotpot_doc_242",
+      "hotpot_doc_243",
+      "hotpot_doc_244"
+    ]
+  },
+  {
+    "id": "squad_q_29",
+    "question": "The name of the NFL championship game is?",
+    "answer": "Super Bowl",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_30",
+    "question": "What 2015 NFL team one the AFC playoff?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_21",
+    "question": "What month, day and year did Super Bowl 50 take place?",
+    "answer": "February 7, 2016",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_31",
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "answer": "2000",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_292",
+      "hotpot_doc_293",
+      "hotpot_doc_294",
+      "hotpot_doc_295",
+      "hotpot_doc_296"
+    ]
+  },
+  {
+    "id": "hotpot_q_23",
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "answer": "keyboard function keys",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_220",
+      "hotpot_doc_221",
+      "hotpot_doc_222",
+      "hotpot_doc_223",
+      "hotpot_doc_224"
+    ]
+  },
+  {
+    "id": "hotpot_q_32",
+    "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+    "answer": "Fujioka, Gunma",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_302",
+      "hotpot_doc_303",
+      "hotpot_doc_304",
+      "hotpot_doc_305",
+      "hotpot_doc_306"
+    ]
+  },
+  {
+    "id": "squad_q_28",
+    "question": "Where was Super Bowl 50 held?",
+    "answer": "Santa Clara, California.",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_49",
+    "question": "Are Ferocactus and Silene both types of plant?",
+    "answer": "yes",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_472",
+      "hotpot_doc_473",
+      "hotpot_doc_474",
+      "hotpot_doc_475",
+      "hotpot_doc_476"
+    ]
+  },
+  {
+    "id": "squad_q_19",
+    "question": "What stadium did Super Bowl 50 take place in?",
+    "answer": "Levi's Stadium",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_14",
+    "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+    "answer": "no",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_131",
+      "hotpot_doc_132",
+      "hotpot_doc_133",
+      "hotpot_doc_134",
+      "hotpot_doc_135"
+    ]
+  },
+  {
+    "id": "hotpot_q_33",
+    "question": "Which French ace pilot and adventurer fly L'Oiseau Blanc",
+    "answer": "Charles Eugène",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_312",
+      "hotpot_doc_313",
+      "hotpot_doc_314",
+      "hotpot_doc_315",
+      "hotpot_doc_316"
+    ]
+  },
+  {
+    "id": "squad_q_36",
+    "question": "Who did the Panthers beat in the NFC Championship Game?",
+    "answer": "Arizona Cardinals",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_30",
+    "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+    "answer": "Arena of Khazan",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_282",
+      "hotpot_doc_283",
+      "hotpot_doc_284",
+      "hotpot_doc_285",
+      "hotpot_doc_286"
+    ]
+  },
+  {
+    "id": "squad_q_20",
+    "question": "What was the final score of Super Bowl 50?",
+    "answer": "24–10",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_37",
+    "question": "Who lost to the Broncos in the AFC Championship?",
+    "answer": "New England Patriots",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_21",
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "answer": "Pedro Rodríguez",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_200",
+      "hotpot_doc_201",
+      "hotpot_doc_202",
+      "hotpot_doc_203",
+      "hotpot_doc_204"
+    ]
+  },
+  {
+    "id": "squad_q_12",
+    "question": "Who won Super Bowl 50?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_8",
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "answer": "3,677 seated",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_71",
+      "hotpot_doc_72",
+      "hotpot_doc_73",
+      "hotpot_doc_74",
+      "hotpot_doc_75"
+    ]
+  },
+  {
+    "id": "squad_q_48",
+    "question": "How many times have the Panthers been in the Super Bowl?",
+    "answer": "2",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_44",
+    "question": "How many teams have played in the Super Bowl eight times?",
+    "answer": "4",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_22",
+    "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+    "answer": "Sonic",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_210",
+      "hotpot_doc_211",
+      "hotpot_doc_212",
+      "hotpot_doc_213",
+      "hotpot_doc_214"
+    ]
+  },
+  {
+    "id": "hotpot_q_11",
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "answer": "Kansas Song",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_101",
+      "hotpot_doc_102",
+      "hotpot_doc_103",
+      "hotpot_doc_104",
+      "hotpot_doc_105"
+    ]
+  },
+  {
+    "id": "hotpot_q_26",
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "answer": "Barton Lee Hazlewood",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_250",
+      "hotpot_doc_251",
+      "hotpot_doc_252",
+      "hotpot_doc_253",
+      "hotpot_doc_254"
+    ]
+  },
+  {
+    "id": "hotpot_q_4",
+    "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+    "answer": "no",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_31",
+      "hotpot_doc_32",
+      "hotpot_doc_33",
+      "hotpot_doc_34",
+      "hotpot_doc_35"
+    ]
+  },
+  {
+    "id": "hotpot_q_37",
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "answer": "2000",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_352",
+      "hotpot_doc_353",
+      "hotpot_doc_354",
+      "hotpot_doc_355",
+      "hotpot_doc_356"
+    ]
+  },
+  {
+    "id": "squad_q_17",
+    "question": "What year did the Denver Broncos secure a Super Bowl title for the third time?",
+    "answer": "2015",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_38",
+    "question": "Who were the defending Super Bowl champions?",
+    "answer": "New England Patriots",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_2",
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "answer": "Chief of Protocol",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_11",
+      "hotpot_doc_12",
+      "hotpot_doc_13",
+      "hotpot_doc_14",
+      "hotpot_doc_15"
+    ]
+  },
+  {
+    "id": "squad_q_42",
+    "question": "Which Carolina Panthers team member was picked as the team's MVP in 2015?",
+    "answer": "Cam Newton",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_3",
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "answer": "Animorphs",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_21",
+      "hotpot_doc_22",
+      "hotpot_doc_23",
+      "hotpot_doc_24",
+      "hotpot_doc_25"
+    ]
+  },
+  {
+    "id": "squad_q_40",
+    "question": "Who was this season's NFL MVP?",
+    "answer": "Cam Newton",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_15",
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "answer": "from 1986 to 2013",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_140",
+      "hotpot_doc_141",
+      "hotpot_doc_142",
+      "hotpot_doc_143",
+      "hotpot_doc_144"
+    ]
+  },
+  {
+    "id": "squad_q_39",
+    "question": "How many teams have been in the Super Bowl eight times?",
+    "answer": "four",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_16",
+    "question": "Super Bowl 50 decided the NFL champion for what season?",
+    "answer": "2015",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_45",
+    "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+    "answer": "Nelson Rockefeller",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_432",
+      "hotpot_doc_433",
+      "hotpot_doc_434",
+      "hotpot_doc_435",
+      "hotpot_doc_436"
+    ]
+  },
+  {
+    "id": "squad_q_43",
+    "question": "What were the win/loss game stats for the Denver Bronco's regular season in 2015?",
+    "answer": "12–4",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_9",
+    "question": "What was the theme of Super Bowl 50?",
+    "answer": "\"golden anniversary\"",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_34",
+    "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+    "answer": "no",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_322",
+      "hotpot_doc_323",
+      "hotpot_doc_324",
+      "hotpot_doc_325",
+      "hotpot_doc_326"
+    ]
+  },
+  {
+    "id": "squad_q_47",
+    "question": "Who did Carolina beat in the NFC championship game?",
+    "answer": "Arizona Cardinals",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_26",
+    "question": "Super Bowl 50 determined the NFL champion for what season?",
+    "answer": "2015",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_19",
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "answer": "1969 until 1974",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_180",
+      "hotpot_doc_181",
+      "hotpot_doc_182",
+      "hotpot_doc_183",
+      "hotpot_doc_184"
+    ]
+  },
+  {
+    "id": "hotpot_q_17",
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "answer": "the North Atlantic Conference",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_160",
+      "hotpot_doc_161",
+      "hotpot_doc_162",
+      "hotpot_doc_163",
+      "hotpot_doc_164"
+    ]
+  },
+  {
+    "id": "squad_q_1",
+    "question": "Which NFL team represented the AFC at Super Bowl 50?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_43",
+    "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+    "answer": "1962",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_412",
+      "hotpot_doc_413",
+      "hotpot_doc_414",
+      "hotpot_doc_415",
+      "hotpot_doc_416"
+    ]
+  },
+  {
+    "id": "squad_q_6",
+    "question": "What was the theme of Super Bowl 50?",
+    "answer": "\"golden anniversary\"",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_33",
+    "question": "What year was the Carolina Panthers franchise founded?",
+    "answer": "1995",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_25",
+    "question": "Who won Super Bowl 50?",
+    "answer": "Denver Broncos",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_24",
+    "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",
+    "answer": "Badly Drawn Boy",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_230",
+      "hotpot_doc_231",
+      "hotpot_doc_232",
+      "hotpot_doc_233",
+      "hotpot_doc_234"
+    ]
+  },
+  {
+    "id": "squad_q_50",
+    "question": "Who was the Most Valuable Player for the 2015 NFL season?",
+    "answer": "Cam Newton",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "squad_q_15",
+    "question": "If Roman numerals were used, what would Super Bowl 50 have been called?",
+    "answer": "Super Bowl L",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "hotpot_q_16",
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "answer": "9,984",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_150",
+      "hotpot_doc_151",
+      "hotpot_doc_152",
+      "hotpot_doc_153",
+      "hotpot_doc_154"
+    ]
+  },
+  {
+    "id": "hotpot_q_28",
+    "question": "Are both Dictyosperma, and Huernia described as a genus?",
+    "answer": "yes",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_270",
+      "hotpot_doc_271"
+    ]
+  },
+  {
+    "id": "hotpot_q_47",
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "answer": "Phil Spector",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_452",
+      "hotpot_doc_453",
+      "hotpot_doc_454",
+      "hotpot_doc_455",
+      "hotpot_doc_456"
+    ]
+  },
+  {
+    "id": "squad_q_41",
+    "question": "What was the win/loss ratio in 2015 for the Carolina Panthers during their regular season?",
+    "answer": "15–1",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_44",
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "answer": "sovereignty",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_422",
+      "hotpot_doc_423",
+      "hotpot_doc_424",
+      "hotpot_doc_425",
+      "hotpot_doc_426"
+    ]
+  },
+  {
+    "id": "squad_q_45",
+    "question": "Which team did not get a chance to defend their Super Bowl XLIX win in Super Bowl 50?",
+    "answer": "New England Patriots",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_2"
+    ]
+  },
+  {
+    "id": "hotpot_q_6",
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "answer": "YG Entertainment",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_51",
+      "hotpot_doc_52",
+      "hotpot_doc_53",
+      "hotpot_doc_54",
+      "hotpot_doc_55"
+    ]
+  },
+  {
+    "id": "hotpot_q_27",
+    "question": "The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "answer": "1838",
+    "type": "multi-hop",
+    "source": "HotpotQA",
+    "supporting_doc_ids": [
+      "hotpot_doc_260",
+      "hotpot_doc_261",
+      "hotpot_doc_262",
+      "hotpot_doc_263",
+      "hotpot_doc_264"
+    ]
+  },
+  {
+    "id": "squad_q_14",
+    "question": "What city did Super Bowl 50 take place in?",
+    "answer": "Santa Clara",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  },
+  {
+    "id": "squad_q_5",
+    "question": "What color was used to emphasize the 50th anniversary of the Super Bowl?",
+    "answer": "gold",
+    "type": "one-hop",
+    "source": "SQuAD",
+    "supporting_doc_ids": [
+      "squad_doc_1"
+    ]
+  }
+]

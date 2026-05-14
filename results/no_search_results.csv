@@ -1,0 +1,101 @@
+﻿method,id,question,type,source,gold_answer,predicted_answer,top_evidence,evidence_score,exact_match,retrieval_hit,score
+no_search,squad_q_18,What city did Super Bowl 50 take place in?,one-hop,SQuAD,Santa Clara,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_13,What venue did Super Bowl 50 take place in?,one-hop,SQuAD,Levi's Stadium,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_48,What type of forum did a former Soviet statesman initiate?,multi-hop,HotpotQA,Organizations could come together to address global issues,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_23,What team was the AFC champion?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_10,Are Local H and For Against both from the United States?,multi-hop,HotpotQA,yes,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_35,Who did the Broncos prevent from going to the Super Bowl?,one-hop,SQuAD,New England Patriots,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_13,What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?,multi-hop,HotpotQA,1999,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_7,Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?,multi-hop,HotpotQA,Eenasul Fateh,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_34,What team did the Panthers defeat?,one-hop,SQuAD,Arizona Cardinals,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_39,Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?,multi-hop,HotpotQA,no,I do not have enough information to answer.,,0,1,0,0.5
+no_search,squad_q_24,What team was the NFC champion?,one-hop,SQuAD,Carolina Panthers,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_4,Which NFL team won Super Bowl 50?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_20,"Which writer was from England, Henry Roth or Robert Erskine Childers?",multi-hop,HotpotQA,Robert Erskine Childers DSC,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_18,Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?,multi-hop,HotpotQA,yes,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_41,Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?,multi-hop,HotpotQA,Scotch Collie,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_46,"A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",multi-hop,HotpotQA,Yellowcraig,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_40,Ralph Hefferline was a psychology professor at a university that is located in what city?,multi-hop,HotpotQA,New York City,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_5,"The director of the romantic comedy ""Big Stone Gap"" is based in what New York city?",multi-hop,HotpotQA,"Greenwich Village, New York City",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_38,"The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",multi-hop,HotpotQA,World War II,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_42,Where is the company that Sachin Warrier worked for as a software engineer headquartered?,multi-hop,HotpotQA,Mumbai,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_2,Which NFL team represented the NFC at Super Bowl 50?,one-hop,SQuAD,Carolina Panthers,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_1,Were Scott Derrickson and Ed Wood of the same nationality?,multi-hop,HotpotQA,yes,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_50,Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?,multi-hop,HotpotQA,English Electric Canberra,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_7,What day was the game played on?,one-hop,SQuAD,"February 7, 2016",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_29,Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?,multi-hop,HotpotQA,Henry J. Kaiser,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_10,What does AFC stand for?,one-hop,SQuAD,American Football Conference,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_32,How many appearances have the Denver Broncos made in the Super Bowl?,one-hop,SQuAD,8,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_8,What is the AFC short for?,one-hop,SQuAD,American Football Conference,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_12,"What screenwriter with credits for ""Evolution"" co-wrote a film starring Nicolas Cage and Téa Leoni?",multi-hop,HotpotQA,David Weissman,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_27,Which team won Super Bowl 50.,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_3,Where did Super Bowl 50 take place?,one-hop,SQuAD,"Santa Clara, California",I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_22,What year was Super Bowl 50?,one-hop,SQuAD,2015,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_46,Who is the quarterback for the Panthers?,one-hop,SQuAD,Cam Newton,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_49,Who did Denver beat in the AFC championship?,one-hop,SQuAD,New England Patriots,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_35,"Which band, Letters to Cleo or Screaming Trees, had more members?",multi-hop,HotpotQA,Letters to Cleo,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_11,What day was the Super Bowl played on?,one-hop,SQuAD,"February 7, 2016",I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_31,Which Carolina Panthers player was named Most Valuable Player?,one-hop,SQuAD,Cam Newton,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_36,Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?,multi-hop,HotpotQA,October 1922,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_9,"Who is older, Annie Morton or Terry Richardson?",multi-hop,HotpotQA,Terry Richardson,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_25,What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?,multi-hop,HotpotQA,World's Best Goalkeeper,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_29,The name of the NFL championship game is?,one-hop,SQuAD,Super Bowl,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_30,What 2015 NFL team one the AFC playoff?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_21,"What month, day and year did Super Bowl 50 take place?",one-hop,SQuAD,"February 7, 2016",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_31,"When was Poison's album ""Shut Up, Make Love"" released?",multi-hop,HotpotQA,2000,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_23,"Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",multi-hop,HotpotQA,keyboard function keys,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_32,"Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",multi-hop,HotpotQA,"Fujioka, Gunma",I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_28,Where was Super Bowl 50 held?,one-hop,SQuAD,"Santa Clara, California.",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_49,Are Ferocactus and Silene both types of plant?,multi-hop,HotpotQA,yes,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_19,What stadium did Super Bowl 50 take place in?,one-hop,SQuAD,Levi's Stadium,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_14,Are Random House Tower and 888 7th Avenue both used for real estate?,multi-hop,HotpotQA,no,I do not have enough information to answer.,,0,1,0,0.5
+no_search,hotpot_q_33,Which French ace pilot and adventurer fly L'Oiseau Blanc,multi-hop,HotpotQA,Charles Eugène,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_36,Who did the Panthers beat in the NFC Championship Game?,one-hop,SQuAD,Arizona Cardinals,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_30,"What is the name for the adventure in ""Tunnels and Trolls"", a game designed by Ken St. Andre?",multi-hop,HotpotQA,Arena of Khazan,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_20,What was the final score of Super Bowl 50?,one-hop,SQuAD,24–10,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_37,Who lost to the Broncos in the AFC Championship?,one-hop,SQuAD,New England Patriots,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_21,Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?,multi-hop,HotpotQA,Pedro Rodríguez,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_12,Who won Super Bowl 50?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_8,The arena where the Lewiston Maineiacs played their home games can seat how many people?,multi-hop,HotpotQA,"3,677 seated",I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_48,How many times have the Panthers been in the Super Bowl?,one-hop,SQuAD,2,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_44,How many teams have played in the Super Bowl eight times?,one-hop,SQuAD,4,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_22,This singer of A Rather Blustery Day also voiced what hedgehog?,multi-hop,HotpotQA,Sonic,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_11,"What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",multi-hop,HotpotQA,Kansas Song,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_26,Who was the writer of These Boots Are Made for Walkin' and who died in 2007?,multi-hop,HotpotQA,Barton Lee Hazlewood,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_4,Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?,multi-hop,HotpotQA,no,I do not have enough information to answer.,,0,1,0,0.5
+no_search,hotpot_q_37,Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?,multi-hop,HotpotQA,2000,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_17,What year did the Denver Broncos secure a Super Bowl title for the third time?,one-hop,SQuAD,2015,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_38,Who were the defending Super Bowl champions?,one-hop,SQuAD,New England Patriots,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_2,What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?,multi-hop,HotpotQA,Chief of Protocol,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_42,Which Carolina Panthers team member was picked as the team's MVP in 2015?,one-hop,SQuAD,Cam Newton,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_3,"What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",multi-hop,HotpotQA,Animorphs,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_40,Who was this season's NFL MVP?,one-hop,SQuAD,Cam Newton,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_15,The football manager who recruited David Beckham managed Manchester United during what timeframe?,multi-hop,HotpotQA,from 1986 to 2013,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_39,How many teams have been in the Super Bowl eight times?,one-hop,SQuAD,four,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_16,Super Bowl 50 decided the NFL champion for what season?,one-hop,SQuAD,2015,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_45,Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?,multi-hop,HotpotQA,Nelson Rockefeller,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_43,What were the win/loss game stats for the Denver Bronco's regular season in 2015?,one-hop,SQuAD,12–4,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_9,What was the theme of Super Bowl 50?,one-hop,SQuAD,"""golden anniversary""",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_34,Are Freakonomics and In the Realm of the Hackers both American documentaries?,multi-hop,HotpotQA,no,I do not have enough information to answer.,,0,1,0,0.5
+no_search,squad_q_47,Who did Carolina beat in the NFC championship game?,one-hop,SQuAD,Arizona Cardinals,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_26,Super Bowl 50 determined the NFL champion for what season?,one-hop,SQuAD,2015,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_19,Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?,multi-hop,HotpotQA,1969 until 1974,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_17,The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?,multi-hop,HotpotQA,the North Atlantic Conference,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_1,Which NFL team represented the AFC at Super Bowl 50?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_43,"A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",multi-hop,HotpotQA,1962,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_6,What was the theme of Super Bowl 50?,one-hop,SQuAD,"""golden anniversary""",I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_33,What year was the Carolina Panthers franchise founded?,one-hop,SQuAD,1995,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_25,Who won Super Bowl 50?,one-hop,SQuAD,Denver Broncos,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_24,"Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice?",multi-hop,HotpotQA,Badly Drawn Boy,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_50,Who was the Most Valuable Player for the 2015 NFL season?,one-hop,SQuAD,Cam Newton,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_15,"If Roman numerals were used, what would Super Bowl 50 have been called?",one-hop,SQuAD,Super Bowl L,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_16,Brown State Fishing Lake is in a country that has a population of how many inhabitants ?,multi-hop,HotpotQA,"9,984",I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_28,"Are both Dictyosperma, and Huernia described as a genus?",multi-hop,HotpotQA,yes,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_47,Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?,multi-hop,HotpotQA,Phil Spector,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_41,What was the win/loss ratio in 2015 for the Carolina Panthers during their regular season?,one-hop,SQuAD,15–1,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_44,The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?,multi-hop,HotpotQA,sovereignty,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_45,Which team did not get a chance to defend their Super Bowl XLIX win in Super Bowl 50?,one-hop,SQuAD,New England Patriots,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_6,2014 S/S is the debut album of a South Korean boy group that was formed by who?,multi-hop,HotpotQA,YG Entertainment,I do not have enough information to answer.,,0,0,0,0.0
+no_search,hotpot_q_27,"The 2011–12 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",multi-hop,HotpotQA,1838,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_14,What city did Super Bowl 50 take place in?,one-hop,SQuAD,Santa Clara,I do not have enough information to answer.,,0,0,0,0.0
+no_search,squad_q_5,What color was used to emphasize the 50th anniversary of the Super Bowl?,one-hop,SQuAD,gold,I do not have enough information to answer.,,0,0,0,0.0

@@ -1,0 +1,4 @@
+﻿method,exact_match,retrieval_hit,avg_score
+No Search Agent,0.04,0.0,0.02
+Search Agent,0.32,0.71,0.515
+Self-Evolving Search Agent,,,1.0
