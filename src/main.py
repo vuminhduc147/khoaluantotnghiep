@@ -145,8 +145,75 @@ def run_self_evolving_agent():
     print("\nAverage auto score:", df["auto_score"].mean())
     return df
 
+def run_proposed_on_real_test():
+    print("\n=== Running Proposed Self-Evolving Search Agent on Real Test Set ===")
 
-def summarize_results(no_search_df, search_df, self_evolving_df):
+    proposer = QuestionProposer()
+    curriculum = DifficultyBasedFilter(keep_difficulties=["medium", "hard"])
+
+    retriever = TfidfRetriever("data/corpus.json")
+    solver = SearchAugmentedSolver(retriever)
+    evaluator = SimpleEvaluator()
+    test_questions = load_test_questions()
+
+    synthetic_questions = proposer.generate(n_questions=100)
+    selected_questions = curriculum.filter(synthetic_questions)
+
+    expansion_terms = []
+    for q in selected_questions:
+        words = q["question"].lower().split()
+        for w in words:
+            if len(w) > 5:
+                expansion_terms.append(w)
+
+    expansion_terms = list(set(expansion_terms))[:20]
+    expansion_text = " ".join(expansion_terms)
+
+    results = []
+
+    for item in tqdm(test_questions):
+        expanded_question = item["question"] + " " + expansion_text
+
+        docs = retriever.retrieve(expanded_question, top_k=5)
+
+        evidence_text = " ".join([doc["text"] for doc in docs])
+        answer = solver.simple_answer_extractor(item["question"], evidence_text)
+
+        output = {
+            "question": item["question"],
+            "answer": answer,
+            "evidence": docs
+        }
+
+        eval_result = evaluator.evaluate_with_gold(
+            output["answer"],
+            item["answer"],
+            output["evidence"]
+        )
+
+        results.append({
+            "method": "proposed_self_evolving_search_agent",
+            "id": item["id"],
+            "question": item["question"],
+            "type": item.get("type", "unknown"),
+            "source": item.get("source", "unknown"),
+            "gold_answer": item["answer"],
+            "predicted_answer": output["answer"],
+            "top_evidence": output["evidence"][0]["title"] if output["evidence"] else None,
+            "evidence_score": output["evidence"][0]["score"] if output["evidence"] else 0,
+            "exact_match": eval_result["exact_match"],
+            "retrieval_hit": eval_result["retrieval_hit"],
+            "score": eval_result["score"]
+        })
+
+    df = pd.DataFrame(results)
+    df.to_csv("results/proposed_real_test_results.csv", index=False, encoding="utf-8-sig")
+
+    print(df.head())
+    print("\nAverage score:", df["score"].mean())
+    return df
+
+def summarize_results(no_search_df, search_df, self_evolving_df, proposed_df=None):
     print("\n=== Summary ===")
 
     summary_rows = []
@@ -165,12 +232,19 @@ def summarize_results(no_search_df, search_df, self_evolving_df):
         "avg_score": search_df["score"].mean()
     })
 
-    summary_rows.append({
-        "method": "Self-Evolving Search Agent",
-        "exact_match": None,
-        "retrieval_hit": None,
-        "avg_score": self_evolving_df["auto_score"].mean()
-    })
+    if proposed_df is not None:
+        summary_rows.append({
+            "method": "Proposed Self-Evolving Search Agent",
+            "exact_match": proposed_df["exact_match"].mean(),
+            "retrieval_hit": proposed_df["retrieval_hit"].mean(),
+            "avg_score": proposed_df["score"].mean()
+        })
+
+    synthetic_summary = pd.DataFrame([{
+        "method": "Self-Evolving Synthetic Evaluation",
+        "auto_score": self_evolving_df["auto_score"].mean()
+    }])
+    synthetic_summary.to_csv("results/synthetic_summary_results.csv", index=False, encoding="utf-8-sig")
 
     summary_df = pd.DataFrame(summary_rows)
     summary_df.to_csv("results/summary_results.csv", index=False, encoding="utf-8-sig")
@@ -183,10 +257,35 @@ def summarize_results(no_search_df, search_df, self_evolving_df):
     print("\nSearch Agent by question type:")
     print(type_summary)
 
+    print("\nSynthetic self-evolving summary:")
+    print(synthetic_summary)
 
 if __name__ == "__main__":
     no_search_df = run_no_search_baseline()
     search_df = run_baseline_search()
     self_evolving_df = run_self_evolving_agent()
+    proposed_df = run_proposed_on_real_test()
 
-    summarize_results(no_search_df, search_df, self_evolving_df)
+    summarize_results(no_search_df, search_df, self_evolving_df, proposed_df)
+
+def save_type_comparison(no_search_df, search_df, proposed_df):
+    all_df = pd.concat([no_search_df, search_df, proposed_df], ignore_index=True)
+
+    type_summary = (
+        all_df
+        .groupby(["method", "type"])[["exact_match", "retrieval_hit", "score"]]
+        .mean()
+        .reset_index()
+    )
+
+    type_summary.to_csv(
+        "results/type_comparison_results.csv",
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print("\n=== Type Comparison ===")
+    print(type_summary)
+
+    save_type_comparison(no_search_df, search_df, proposed_df)
+
