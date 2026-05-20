@@ -260,14 +260,6 @@ def summarize_results(no_search_df, search_df, self_evolving_df, proposed_df=Non
     print("\nSynthetic self-evolving summary:")
     print(synthetic_summary)
 
-if __name__ == "__main__":
-    no_search_df = run_no_search_baseline()
-    search_df = run_baseline_search()
-    self_evolving_df = run_self_evolving_agent()
-    proposed_df = run_proposed_on_real_test()
-
-    summarize_results(no_search_df, search_df, self_evolving_df, proposed_df)
-
 def save_type_comparison(no_search_df, search_df, proposed_df):
     all_df = pd.concat([no_search_df, search_df, proposed_df], ignore_index=True)
 
@@ -287,5 +279,14 @@ def save_type_comparison(no_search_df, search_df, proposed_df):
     print("\n=== Type Comparison ===")
     print(type_summary)
 
+
+if __name__ == "__main__":
+    no_search_df = run_no_search_baseline()
+    search_df = run_baseline_search()
+    self_evolving_df = run_self_evolving_agent()
+    proposed_df = run_proposed_on_real_test()
+
+    summarize_results(no_search_df, search_df, self_evolving_df, proposed_df)
     save_type_comparison(no_search_df, search_df, proposed_df)
+
 

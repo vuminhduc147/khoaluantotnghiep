@@ -1,0 +1,7 @@
+﻿method,type,exact_match,retrieval_hit,score
+no_search,multi-hop,0.08,0.0,0.04
+no_search,one-hop,0.0,0.0,0.0
+proposed_self_evolving_search_agent,multi-hop,0.24,0.66,0.45
+proposed_self_evolving_search_agent,one-hop,0.4,0.94,0.67
+search_agent,multi-hop,0.24,0.52,0.38
+search_agent,one-hop,0.4,0.9,0.65
